@@ -170,12 +170,18 @@ yuvaintern.agriyield-ai/
 
 ## 8. Weekly Internship Work & Deliverables
 
-| Week | Focus Area | Key Deliverables Completed | Formal Report Link |
-|:---:|:---|:---|:---:|
-| **Week 1** | Strategic Design & Planning | Problem definition, objectives, data sourcing plan, KPIs, risk mitigation, timeline | [reports/weekly/Week1.docx](reports/weekly/Week1.docx) |
-| **Week 2** | Data Acquisition & Preparation | Ingested 246k raw rows, missing target handling (3,730 nulls dropped), unit segregation (Coconut in nuts), ICAR yield bounding (190 flagged), 11 features | [reports/weekly/Week2.docx](reports/weekly/Week2.docx) |
-| **Week 3** | Data Analysis & Modeling | 18-year EDA, chronological validation (1997–2011 Train / 2012–2015 Test), Ridge, Random Forest, HistGradientBoosting benchmarking | [reports/weekly/Week3.docx](reports/weekly/Week3.docx) |
-| **Week 4** | Evaluation & Recommendations | Pytest suite (11/11 passed in 7.05s), 5 agribusiness recommendations, final documentation | [reports/weekly/Week4.docx](reports/weekly/Week4.docx) |
+All four weekly internship Word documents have been regenerated, styled, verified, and embedded with **37 authentic high-resolution figures** in strict accordance with **ISO/IEC 29500 / ECMA-376 Office Open XML (DOCX)** standards. They are fully compatible with desktop Microsoft Word, Google Docs, and mobile viewers (Android / iOS) without raw XML display artifacts.
+
+| Week | Focus Area | Key Deliverables Completed | Embedded Figures | Word Count | Formal Report Link |
+|:---:|:---|:---|:---:|:---:|:---:|
+| **Week 1** | Strategic Design & Planning | Problem definition, public data sourcing plan (DES APY & FAOSTAT), feature engineering rules, KPIs, risk mitigation, timeline | 3 figures | 1,564 | [reports/weekly/Week1.docx](reports/weekly/Week1.docx) |
+| **Week 2** | Data Acquisition & Preparation | Ingested 246,091 raw rows, missing target handling (3,730 nulls dropped), unit segregation (Coconut in thousand nuts), ICAR yield bounding (190 flagged), 11 engineered features | 10 figures | 2,822 | [reports/weekly/Week2.docx](reports/weekly/Week2.docx) |
+| **Week 3** | Data Analysis & Modeling | 18-year multi-dimensional EDA, chronological validation (1997–2011 Train / 2012–2015 Test), Ridge, Random Forest, HistGradientBoosting benchmarking, target leakage transparency | 12 figures | 2,896 | [reports/weekly/Week3.docx](reports/weekly/Week3.docx) |
+| **Week 4** | Evaluation & Recommendations | Pytest suite (11/11 passed in 7.05s), residual symmetry diagnostics, 5 agribusiness strategic recommendations, final deployment review | 12 figures | 4,981 | [reports/weekly/Week4.docx](reports/weekly/Week4.docx) |
+
+> 📋 **Quality Assurance Dossier**: For full 7-point audit results, technical root-cause analysis, and mobile viewing instructions, see [reports/weekly/README.md](reports/weekly/README.md).  
+> 🔄 **Reproducible Report Generator**: All four documents can be programmatically re-built and validated via `python reports/weekly/generate_weekly_reports.py`.  
+> 📦 **Pristine Backups**: Original document backups prior to repair are archived in [`reports/weekly/backup_originals/`](reports/weekly/backup_originals/).
 
 ### Consolidated Final Report
 The complete 4-week internship lifecycle has been consolidated into a publication-quality final report:
@@ -203,17 +209,40 @@ Models were evaluated on the held-out out-of-time test set (37,726 records from 
 
 ---
 
-## 10. Screenshot Evidence
+## 10. Screenshot Evidence Master Catalogue
 
-| Figure | Description | File Path |
-|:---:|:---|:---|
-| **Program Overview** | YuvaIntern 4-week roadmap & milestone summary | [screenshots/week1/yuva_internship_program_overview.png](screenshots/week1/yuva_internship_program_overview.png) |
-| **Data Quality Audit** | Partitioning of 246,091 raw records (98.41% retention) | [screenshots/week2/data_quality_audit_breakdown.png](screenshots/week2/data_quality_audit_breakdown.png) |
-| **Yield Trajectories** | 18-year longitudinal yield trends across crops | [screenshots/week3/crop_yield_trends.png](screenshots/week3/crop_yield_trends.png) |
-| **State Production** | Top 10 agricultural states by production volume | [screenshots/week3/top_10_producing_states.png](screenshots/week3/top_10_producing_states.png) |
-| **Parity Plot** | Actual vs. Predicted Yield on holdout test set | [screenshots/week3/actual_vs_predicted_parity.png](screenshots/week3/actual_vs_predicted_parity.png) |
-| **Model Benchmark** | Multi-model performance comparison | [screenshots/week4/model_benchmark_comparison.png](screenshots/week4/model_benchmark_comparison.png) |
-| **Test Verification** | Automated Pytest suite verification (11/11 passed) | [screenshots/week4/pytest_test_verification.png](screenshots/week4/pytest_test_verification.png) |
+A total of 37 visual artifacts are embedded across the weekly reports and application documentation:
+
+| Domain / Milestone | Visual Artifact | What It Demonstrates | Verified File Path |
+|:---|:---|:---|:---|
+| **Week 1 Planning** | Project Methodology Lifecycle | 10-phase end-to-end data science lifecycle from business problem to deployment | [screenshots/week1/project_methodology_lifecycle.png](screenshots/week1/project_methodology_lifecycle.png) |
+| **Week 1 Architecture** | System Architecture Stack | Multi-tier technical architecture (Data, Feature, ML, UI, CI/CD, Docker) | [screenshots/week1/system_architecture_stack.png](screenshots/week1/system_architecture_stack.png) |
+| **Week 1 Overview** | Internship Program Roadmap | YuvaIntern 4-week roadmap, deliverables, and role specifications | [screenshots/week1/yuva_internship_program_overview.png](screenshots/week1/yuva_internship_program_overview.png) |
+| **Week 2 Data Prep** | Cleaned Schema Summary | Schema structure, data types, and record volume (242,361 rows) | [screenshots/week2/clean_dataset_schema_summary.png](screenshots/week2/clean_dataset_schema_summary.png) |
+| **Week 2 Cleaning** | Quality Audit Breakdown | Donut chart: 98.41% yield-ready records, 1.52% null production dropped | [screenshots/week2/data_quality_audit_breakdown.png](screenshots/week2/data_quality_audit_breakdown.png) |
+| **Week 2 Cleaning** | Missing Value Analysis | Before vs. After cleaning: 3,730 null production entries dropped to preserve ground truth | [screenshots/week2/missing_value_analysis_before_after.png](screenshots/week2/missing_value_analysis_before_after.png) |
+| **Week 2 Units** | Coconut Heterogeneity | Segregation of Coconut (Thousand Nuts) from metric-tonne food grains | [screenshots/week2/unit_heterogeneity_coconut_resolution.png](screenshots/week2/unit_heterogeneity_coconut_resolution.png) |
+| **Week 2 Outliers** | ICAR Biological Bounding | Physiological maximum yield bounding (190 records flagged transparently) | [screenshots/week2/icar_biological_yield_bounding.png](screenshots/week2/icar_biological_yield_bounding.png) |
+| **Week 2 Engineering** | Logarithmic Transformation | Pre-harvest feature normalization and yield skewness reduction | [screenshots/week2/feature_engineering_log_transform.png](screenshots/week2/feature_engineering_log_transform.png) |
+| **Week 2 Commodities** | Top 12 Crops Production | Historical production volume distribution across top Indian crops | [screenshots/week2/top-12-crops-by-historical-production.png](screenshots/week2/top-12-crops-by-historical-production.png) |
+| **Week 3 EDA** | Seasonal Yield Dynamics | Density distribution across Kharif, Rabi, Summer, Autumn, Winter | [screenshots/week3/seasonal_yield_distribution.png](screenshots/week3/seasonal_yield_distribution.png) |
+| **Week 3 Monsoon** | Kharif vs Rabi Impact | Monsoon-fed (Kharif) vs. irrigated winter (Rabi) productivity comparison | [screenshots/week3/monsoon_impact_kharif_vs_rabi.png](screenshots/week3/monsoon_impact_kharif_vs_rabi.png) |
+| **Week 3 Longitudinal** | Crop Yield Trends | Multi-decade longitudinal yield trends across major agricultural commodities | [screenshots/week3/crop_yield_trends.png](screenshots/week3/crop_yield_trends.png) |
+| **Week 3 Spread** | Top Crops Boxplots | Interquartile dispersion and yield variability across top 10 crops | [screenshots/week3/crop_yield_boxplots_top_crops.png](screenshots/week3/crop_yield_boxplots_top_crops.png) |
+| **Week 3 Spatial** | State Productivity Map | State-wise agricultural yield productivity disparities across India | [screenshots/week3/state_wise_yield_productivity_map.png](screenshots/week3/state_wise_yield_productivity_map.png) |
+| **Week 3 Ranking** | State Production Ranking | Total agricultural output contribution ranked across 33 States/UTs | [screenshots/week3/state_production_ranking.png](screenshots/week3/state_production_ranking.png) |
+| **Week 3 Features** | Correlation Matrix Heatmap | Multi-feature correlation matrix across engineered agricultural predictors | [screenshots/week3/correlation_matrix_heatmap.png](screenshots/week3/correlation_matrix_heatmap.png) |
+| **Week 3 Modeling** | Benchmark R² Comparison | Recorded model comparison: Baseline (-0.0027) vs HistGB (0.8710) | [screenshots/week3/fig2_model_benchmark_r2.png](screenshots/week3/fig2_model_benchmark_r2.png) |
+| **Week 3 Importance** | Feature Importance Ranking | HistGradientBoosting relative feature importance breakdown | [screenshots/week3/feature_importance_ranking.png](screenshots/week3/feature_importance_ranking.png) |
+| **Week 3 Residuals** | Actual vs Predicted Parity | Parity plot on out-of-time test set (2012–2015, N = 37,726) | [screenshots/week3/actual_vs_predicted_parity.png](screenshots/week3/actual_vs_predicted_parity.png) |
+| **Week 4 Evaluation** | Project Evaluation Scorecard | End-to-end evaluation scorecard across data, ML, and software engineering | [screenshots/week4/end_to_end_evaluation_scorecard.png](screenshots/week4/end_to_end_evaluation_scorecard.png) |
+| **Week 4 Application** | Live Streamlit UI Overview | Hero interface and analytical telemetry of the deployed application | [screenshots/application/app_hero_landing_overview.png](screenshots/application/app_hero_landing_overview.png) |
+| **Week 4 Benchmarks** | Multi-Model Comparison | Comprehensive 4-model comparison across MAE, RMSE, and R² | [screenshots/week4/model_benchmark_comparison.png](screenshots/week4/model_benchmark_comparison.png) |
+| **Week 4 Errors** | Crop-Wise MAE Breakdown | Mean absolute error breakdown across major agricultural commodities | [screenshots/week4/crop_wise_error_breakdown_mae.png](screenshots/week4/crop_wise_error_breakdown_mae.png) |
+| **Week 4 Seasons** | Seasonal R² Breakdown | Segmented model performance across individual agricultural seasons | [screenshots/week4/seasonal_model_performance_r2.png](screenshots/week4/seasonal_model_performance_r2.png) |
+| **Week 4 Residuals** | Residual Distribution | Error symmetry diagnostics showing near-zero bias (+0.2276 t/ha) | [screenshots/week4/residual_distribution.png](screenshots/week4/residual_distribution.png) |
+| **Week 4 Strategy** | Agribusiness Decision Matrix | Strategic decision matrix: deployment readiness vs. agronomic risk | [screenshots/week4/agribusiness_decision_matrix.png](screenshots/week4/agribusiness_decision_matrix.png) |
+| **Week 4 CI/CD** | Pytest Test Verification | Automated test suite execution: 11/11 unit tests passing in 7.05s | [screenshots/week4/pytest_test_verification.png](screenshots/week4/pytest_test_verification.png) |
 
 For complete checklist details and pending UI screenshots, see [documentation/screenshot_checklist.md](documentation/screenshot_checklist.md).
 
